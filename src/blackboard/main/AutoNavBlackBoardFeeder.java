@@ -3,21 +3,21 @@ package blackboard.main;
 import java.util.ArrayList;
 import java.util.List;
 
-import blackboard.bb.autonav.AutoNavBlackBoard;
-import blackboard.bb.autonav.AutoNavObserverBlackBoard;
-import blackboard.bbo.autonav.BrakePedalBBO;
-import blackboard.bbo.autonav.DeltaSpeedDataBBO;
-import blackboard.bbo.autonav.FrontVehicleDataBBO;
-import blackboard.bbo.autonav.RightLaneVehicleDataBBO;
-import blackboard.controller.autonav.AutoNavBBController;
-import blackboard.controller.autonav.AutoNavObserverBBController;
+import blackboard.autonav.bb.AutoNavBlackBoard;
+import blackboard.autonav.bb.AutoNavObserverBlackBoard;
+import blackboard.autonav.bbo.BrakePedalBBO;
+import blackboard.autonav.bbo.DeltaSpeedDataBBO;
+import blackboard.autonav.bbo.FrontVehicleDataBBO;
+import blackboard.autonav.bbo.RightLaneVehicleDataBBO;
+import blackboard.autonav.controller.AutoNavBBController;
+import blackboard.autonav.controller.AutoNavObserverBBController;
+import blackboard.autonav.ks.DeltaSpeedDataKS;
+import blackboard.autonav.ks.FrontVehicleDataKS;
+import blackboard.autonav.ks.RightLaneVehicleDataKS;
 import blackboard.framework.BaseBlackBoardController;
 import blackboard.framework.BlackBoard;
 import blackboard.framework.BlackBoardObject;
 import blackboard.framework.KnowledgeSource;
-import blackboard.ks.autonav.DeltaSpeedDataKS;
-import blackboard.ks.autonav.FrontVehicleDataKS;
-import blackboard.ks.autonav.RightLaneVehicleDataKS;
 
 public class AutoNavBlackBoardFeeder {
 
