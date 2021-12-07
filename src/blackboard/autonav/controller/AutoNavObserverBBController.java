@@ -1,6 +1,6 @@
 package blackboard.autonav.controller;
 
-import blackboard.autonav.framework.AbstractObserverBlackBoardController;
+import blackboard.framework.AbstractObserverBlackBoardController;
 import blackboard.framework.BlackBoardObject;
 import blackboard.main.Constant;
 

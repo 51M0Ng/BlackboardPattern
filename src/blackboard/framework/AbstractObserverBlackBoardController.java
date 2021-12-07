@@ -1,15 +1,10 @@
-package blackboard.autonav.framework;
+package blackboard.framework;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import blackboard.framework.BlackBoard;
-import blackboard.framework.BlackBoardObject;
-import blackboard.framework.KnowledgeSource;
-import blackboard.framework.ObserverBlackBoardController;
 
 public abstract class AbstractObserverBlackBoardController<T> implements ObserverBlackBoardController<T> {
     protected List<KnowledgeSource<T>> ksList = new ArrayList<>();

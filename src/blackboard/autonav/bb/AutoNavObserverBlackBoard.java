@@ -1,6 +1,6 @@
 package blackboard.autonav.bb;
 
-import blackboard.autonav.framework.AbstractObserverBlackBoard;
+import blackboard.framework.AbstractObserverBlackBoard;
 import blackboard.main.Constant;
 
 public class AutoNavObserverBlackBoard<T> extends AbstractObserverBlackBoard<T>{

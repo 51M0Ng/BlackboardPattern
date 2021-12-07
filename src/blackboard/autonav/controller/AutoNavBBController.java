@@ -1,12 +1,11 @@
 package blackboard.autonav.controller;
 
 import blackboard.framework.AbstractBlackBoardController;
-import blackboard.framework.BlackBoardObject;
 import blackboard.main.Constant;
 
 public class AutoNavBBController<T> extends AbstractBlackBoardController<T> {
     @Override
-    public void execOutcome(BlackBoardObject bbo) {
+    public void execOutcome(T bbo) {
         Constant.writeLog("==>> Operating brake pedal");
     }
 }

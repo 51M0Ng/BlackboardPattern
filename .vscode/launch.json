@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ObjectDetectBlackBoardFeederGUI",
+            "vmArgs": "--module-path C:/Java/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "request": "launch",
+            "mainClass": "blackboard.main.ObjectDetectBlackBoardFeederGUI",
+            "projectName": "BlackboardPattern_67ba5e99"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "blackboard.main.App",

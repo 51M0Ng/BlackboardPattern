@@ -20,7 +20,7 @@ public abstract class AbstractBlackBoardController<T> implements BlackBoardContr
 
     public void onNext(T item) {
         if(((BlackBoardObject) item).isReady()){
-            execOutcome((BlackBoardObject) item);
+            execOutcome(item);
         } else {
             for (KnowledgeSource<T> ks : ksList) {
                 if(ks.canHandle(item, null)) {

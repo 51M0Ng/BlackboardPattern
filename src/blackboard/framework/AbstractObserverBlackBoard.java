@@ -1,8 +1,6 @@
-package blackboard.autonav.framework;
+package blackboard.framework;
 
 import java.util.Observable;
-
-import blackboard.framework.BlackBoard;
 
 public abstract class AbstractObserverBlackBoard<T> extends Observable implements BlackBoard<T> {
     public void addBlackBoardObject(T bbo){
