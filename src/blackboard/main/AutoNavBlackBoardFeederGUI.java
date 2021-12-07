@@ -1,10 +1,5 @@
 package blackboard.main;
 
-/**
- * App
- */
-import java.util.logging.Logger;
-
 import blackboard.main.AutoNavBlackBoardFeeder.BlackBoardObjectType;
 import javafx.application.Application;
 import javafx.event.ActionEvent;

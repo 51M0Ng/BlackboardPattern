@@ -45,8 +45,8 @@ public abstract class AbstractBlackBoardController<T> implements BlackBoardContr
     }
 
     public void enrollKnowledgeSource(KnowledgeSource<T> ks, ExecutorService exsvc) {
-        exsvc = Executors.newFixedThreadPool(1);
-        exsvc.execute(ks);
-        exsvc.shutdown();
+        this.exsvc = Executors.newFixedThreadPool(1);
+        this.exsvc.execute(ks);
+        this.exsvc.shutdown();
     }
 }
