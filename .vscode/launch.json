@@ -6,28 +6,33 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch AutoNavBlackBoardFeederGUI",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "blackboard.main.App",
+            "projectName": "BlackboardPattern_67ba5e99"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppGUI",
             "vmArgs": "--module-path C:/Java/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
             "request": "launch",
-            "mainClass": "blackboard.main.AutoNavBlackBoardFeederGUI",
-            "projectName": "JAVA_6177dcb2"
+            "mainClass": "blackboard.main.AppGUI",
+            "projectName": "BlackboardPattern_67ba5e99"
         },
         {
             "type": "java",
             "name": "Launch AutoNavBlackBoardFeeder",
             "request": "launch",
             "mainClass": "blackboard.main.AutoNavBlackBoardFeeder",
-            "projectName": "JAVA_6177dcb2"
+            "projectName": "BlackboardPattern_67ba5e99"
         },
         {
             "type": "java",
-            "name": "Launch App",
-            "request": "launch",
+            "name": "Launch AutoNavBlackBoardFeederGUI",
             "vmArgs": "--module-path C:/Java/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml",
-            "mainClass": "App",
-            "projectName": "JAVA_6177dcb2",
-            "noDebug": true,
-            "__progressId": "265fb150-c9df-43f0-aa8f-38597db0c85a"
+            "request": "launch",
+            "mainClass": "blackboard.main.AutoNavBlackBoardFeederGUI",
+            "projectName": "BlackboardPattern_67ba5e99"
         },
         {
             "type": "java",
